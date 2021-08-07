@@ -1,29 +1,56 @@
 <template>
-  <div class="landing">
+  <div class="landing px-8 gap-12">
+    <MobileMenu />
     <div class="header flex flex-wrap mx-auto">
-      <img 
-        src="@/assets/img/logo.svg"
-        width="100px"
-        alt="Ethan Smith"
-        />
-        <h1 class="text-primary dark:text-white font-display text-4xl font-bold uppercase my-auto ml-12">Ethan Smith</h1>
+
+      <Logo size="100px"/>
+
+      <h1 class="text-dark-400 dark:text-white font-display text-4xl font-bold uppercase my-auto md:ml-12">Ethan Smith</h1>
     </div>
-    <Navbar />
-    
+    <Navbar class="hidden md:flex duration-300" />
+    <p class="text-light dark:text-grey text-center leading-10">
+      A well-rounded, high school senior, with a passion for computer science, I enjoy working in environments that provide an opportunity to apply principles related to computer software, hardware, and application systems.
+    </p>
+    <ul class="roles flex gap-4 mx-auto flex-col text-center text-light md:flex-row">
+      <li>Software Engineer at <a href="https://alqen.io">Alqen.io</a></li>
+      <li>Founder of Necton LLC</li>
+    </ul>
+    <button class="bg-primary hover:bg-dark-300 duration-300 block w-48 mx-auto rounded-full">
+      <NuxtLink
+        to="/contact"
+        class="block py-3 font-display text-white"
+      >Get In Touch</NuxtLink>
+    </button>
+    <Social />
+
+    <select v-model="$colorMode.preference">
+      <option value="system">System</option>
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+
+    </select>
   </div>
 </template>
 <style lang="scss">
-  .landing {
-    max-width: 600px;
-    @apply  mx-auto flex flex-col;
+  @media (min-width: 1024px) {
+    .landing {
+      max-width: 800px;
+      @apply m-auto flex flex-col;
+    }
   }
 </style>
 <script>
-import Navbar from '@/components/core/Navbar'
+import Logo from "@/components/core/Logo";
+import Navbar from "@/components/core/Navbar";
+import MobileMenu from "@/components/landing/MobileMenu";
+import Social from "@/components/core/Social";
 export default {
-  layout: 'empty',
+  layout: "empty",
   components: {
-    Navbar
-  }
-}
+    Logo,
+    Navbar,
+    MobileMenu,
+    Social,
+  },
+};
 </script>

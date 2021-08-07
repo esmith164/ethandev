@@ -1,23 +1,23 @@
 <template>
-  <div class="navbar grid grid-cols-4 gap-4">
+  <div class="navbar grid md:grid-cols-4 gap-y-4 md:gap-4">
     <NuxtLink to="/">
-      <span>Home</span>
+      Home
     </NuxtLink>
     <NuxtLink to="/portfolio">
-      <span>Portfolio</span>
+      Portfolio
     </NuxtLink>
     <NuxtLink to="/resume">
-      <span>Resume</span>
+      Resume
     </NuxtLink>
     <NuxtLink to="/about">
-      <span>About</span>
+      About
     </NuxtLink>
   </div>
 </template>
 <style lang="scss" scoped>
   .navbar {
     a {
-      @apply w-full block py-2 rounded-full text-light text-center duration-300 font-display;
+      @apply w-full block py-2 rounded-full text-base text-light text-center duration-300 font-display;
       &:hover {
         @apply bg-dark-300 text-white;
       }

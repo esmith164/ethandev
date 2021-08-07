@@ -1,10 +1,10 @@
 <template>
-  <div class="dark:bg-dark-400 wrapper">
+  <div class="bg-grey dark:bg-dark-400 min-h-screen flex">
     <Nuxt />
   </div>
 </template>
-<style lang="scss" scoped>
-  .wrapper {
-    min-height: 100vh;
-  }
+<style lang="scss">
+* {
+  @apply duration-300;
+}
 </style>
