@@ -6,9 +6,10 @@ module.exports = {
   },
   purge: [],
   theme: {
+    darkSelector: '.dark-mode',
     fontFamily: {
       'body': ['Inter', 'sans-serif'],
-      'display': ['Inter', 'sans-serif'],
+      'display': ['Rubik', 'sans-serif'],
     },
     colors: {
       primary: '#2D4EF9',
