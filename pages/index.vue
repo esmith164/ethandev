@@ -22,13 +22,7 @@
       >Get In Touch</NuxtLink>
     </button>
     <Social />
-
-    <select v-model="$colorMode.preference">
-      <option value="system">System</option>
-      <option value="light">Light</option>
-      <option value="dark">Dark</option>
-
-    </select>
+<Theme />
   </div>
 </template>
 <style lang="scss">
@@ -44,6 +38,8 @@ import Logo from "@/components/core/Logo";
 import Navbar from "@/components/core/Navbar";
 import MobileMenu from "@/components/landing/MobileMenu";
 import Social from "@/components/core/Social";
+import Theme from '@/components/core/Theme';
+
 export default {
   layout: "empty",
   components: {
@@ -51,6 +47,7 @@ export default {
     Navbar,
     MobileMenu,
     Social,
+    Theme
   },
 };
 </script>

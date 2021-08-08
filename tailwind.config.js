@@ -29,5 +29,8 @@ module.exports = {
   },
   plugins: [
     require('tailwindcss-dark-mode')()
-  ]
+  ],
+  colorMode: {
+    preference: 'Dark'
+  }
 }
