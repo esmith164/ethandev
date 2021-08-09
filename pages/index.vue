@@ -1,28 +1,28 @@
 <template>
   <div class="landing px-8 gap-12">
     <MobileMenu />
-    <div class="header flex flex-wrap mx-auto">
+    <div class="header hidden lg:flex flex-wrap mx-auto">
 
-      <Logo size="100px"/>
+      <Logo size="100px" />
 
       <h1 class="text-dark-400 dark:text-white font-display text-4xl font-bold uppercase my-auto md:ml-12">Ethan Smith</h1>
     </div>
-    <Navbar class="hidden md:flex duration-300" />
-    <p class="text-light dark:text-grey text-center leading-10">
+    <Navbar class="hidden lg:flex duration-300" />
+    <p class="text-light dark:text-grey text-center leading-10 mb-6">
       A well-rounded, high school senior, with a passion for computer science, I enjoy working in environments that provide an opportunity to apply principles related to computer software, hardware, and application systems.
     </p>
-    <ul class="roles flex gap-4 mx-auto flex-col text-center text-light md:flex-row">
+    <ul class="roles flex gap-4 mx-auto flex-col text-center text-light lg:flex-row mb-12 lg:mb-0">
       <li>Software Engineer at <a href="https://alqen.io">Alqen.io</a></li>
       <li>Founder of Necton LLC</li>
     </ul>
-    <button class="bg-primary hover:bg-dark-300 duration-300 block w-48 mx-auto rounded-full">
+    <button class="bg-primary hover:bg-dark-300 duration-300 block w-48 mx-auto rounded-full mb-12 lg:mb-0">
       <NuxtLink
         to="/contact"
         class="block py-3 font-display text-white"
       >Get In Touch</NuxtLink>
     </button>
-    <Social />
-<Theme />
+    <Social class="mb-12 lg:mb-0"/>
+    <Theme />
   </div>
 </template>
 <style lang="scss">
@@ -38,7 +38,7 @@ import Logo from "@/components/core/Logo";
 import Navbar from "@/components/core/Navbar";
 import MobileMenu from "@/components/landing/MobileMenu";
 import Social from "@/components/core/Social";
-import Theme from '@/components/core/Theme';
+import Theme from "@/components/core/Theme";
 
 export default {
   layout: "empty",
@@ -47,7 +47,7 @@ export default {
     Navbar,
     MobileMenu,
     Social,
-    Theme
+    Theme,
   },
 };
 </script>

@@ -1,6 +1,7 @@
 <template>
-  <div class="header py-12">
-    <div class="container flex mx-auto flex-row">
+  <div class="header ">
+    <MobileMenu/>
+    <div class="container py-12 hidden lg:flex mx-auto flex-row">
       <Logo size="50px" />
       <div class="w-6/12 my-auto">
         <Navbar />
@@ -13,10 +14,11 @@
 </template>
 <script>
 import Logo from '@/components/core/Logo'
+import MobileMenu from '@/components/landing/MobileMenu'
 import Navbar from '@/components/core/Navbar'
 import Theme from '@/components/core/Theme'
 export default {
   name: 'Header',
-  components: { Navbar, Logo, Theme }
+  components: { Navbar, Logo, Theme, MobileMenu }
 }
 </script>

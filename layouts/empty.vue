@@ -9,7 +9,8 @@ import Theme from '@/components/core/Theme';
 export default {
   components: {
     Theme
-  }
+  },
+
 }
 </script>
 <style lang="scss">

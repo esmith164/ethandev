@@ -3,7 +3,7 @@
     <input
       type="checkbox"
       id="neumorphism"
-      checked
+      :checked="$colorMode.preference === 'dark'"
       @click="toggleDarkmode"
     >
     <label for="neumorphism" class="bg-white dark:bg-dark-300">
