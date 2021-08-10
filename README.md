@@ -1,4 +1,6 @@
 # ethandev
+Netlify Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c2119ecd-79eb-4fd9-890a-82c5a7a1535c/deploy-status)](https://app.netlify.com/sites/ethan-smith/deploys)
 
 ## Build Setup
 
