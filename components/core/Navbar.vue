@@ -22,7 +22,7 @@
 <style lang="scss" scoped>
   .navbar {
     a {
-      @apply w-full block py-2 rounded-full text-base text-light text-center duration-300 font-display;
+      @apply w-full block py-2 rounded-full text-sm text-light text-center duration-300 font-display;
       &:hover {
         @apply bg-dark-300 text-white;
       }
