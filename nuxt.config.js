@@ -45,10 +45,12 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
   ],
-
+  colorMode: {
+    preference: 'Dark'
+  },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    babel:{
+    babel: {
       plugins: [
         ['@babel/plugin-proposal-private-methods', { loose: true }]
       ]
