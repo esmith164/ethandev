@@ -3,15 +3,20 @@
     <NuxtLink to="/">
       Home
     </NuxtLink>
+
     <NuxtLink to="/portfolio">
       Portfolio
     </NuxtLink>
-    <NuxtLink to="/resume">
-      Resume
-    </NuxtLink>
+
     <NuxtLink to="/about">
       About
     </NuxtLink>
+    <a
+      target="_blank"
+      href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:c3805f6a-31b7-4afd-962f-9d4bb0834c76"
+    >
+      Resume
+    </a>
   </div>
 </template>
 <style lang="scss" scoped>
