@@ -40,6 +40,7 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
+    'nuxt-purgecss'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -52,7 +53,7 @@ export default {
   build: {
     babel: {
       plugins: [
-        ['@babel/plugin-proposal-private-methods', { loose: true }]
+        ['@babel/plugin-proposal-private-methods',npm { loose: true }]
       ]
     }
   },
@@ -63,5 +64,8 @@ export default {
   layoutTransition: {
     name: 'fade',
     mode: 'out-in'
+  },
+  purgeCSS: {
+    whitelist: ['dark-mode']
   }
 }
