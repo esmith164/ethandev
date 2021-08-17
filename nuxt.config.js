@@ -53,7 +53,7 @@ export default {
   build: {
     babel: {
       plugins: [
-        ['@babel/plugin-proposal-private-methods',npm { loose: true }]
+        ['@babel/plugin-proposal-private-methods', { loose: true }]
       ]
     }
   },
@@ -67,5 +67,5 @@ export default {
   },
   purgeCSS: {
     whitelist: ['dark-mode']
-  }
+  },
 }
