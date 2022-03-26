@@ -13,13 +13,14 @@
     </p>
     <ul class="roles flex gap-4 mx-auto flex-col text-center text-light lg:flex-row mb-12 lg:mb-0">
       <li>Software Engineer at <a href="https://alqen.io">Alqen.io</a></li>
+      <li>Frontend Developer at A Hidden Society & MetaSniper</li>
       <li>Founder of Necton LLC</li>
     </ul>
     <button class="bg-primary hover:bg-dark-300 duration-300 block w-48 mx-auto rounded-full mb-12 lg:mb-0">
-      <NuxtLink
-        to="/contact"
+      <a 
+        href="mailto:me@ethansmith.us"
         class="block py-3 font-display text-white"
-      >Get In Touch</NuxtLink>
+      >Get In Touch</a>
     </button>
     <Social class="mb-12 lg:mb-0"/>
     <Theme />

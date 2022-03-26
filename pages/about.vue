@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto px-8 lg:px-0">
-    <div class="grid grid-cols-12 gap-y-6 gap-x-12">
-      <div class="col-span-8">
+    <div class="grid grid-cols-12 gap-y-6 lg:gap-x-12">
+      <div class="col-span-12 lg:col-span-8">
         <h1 class="text-3xl text-dark-400 dark:text-white font-bold uppercase font-display">About Me</h1>
         <p class="text-light text-sm dark:text-grey leading-10">
           My background stems from my early years of front-end web development and includes experience developing software solutions to solve problems. I have a commitment to learning which has progressed into a freelance career path while keeping my academic focus in the forefront while working with a vast array of customers and working on other projects aimed at solidifying my competencies.
@@ -14,7 +14,7 @@
         />
         
       </div>
-      <div class="col-span-8">
+      <div class="col-span-12 lg:col-span-8">
         <h1 class="text-2xl text-dark-400 dark:text-white font-bold uppercase font-display mb-8">Work Experience</h1>
         <div class="flex flex-col gap-8">
           <Job
@@ -24,7 +24,7 @@
           />
         </div>
       </div>
-      <div class="col-span-4 flex flex-col gap-8">
+      <div class="col-span-12 lg:col-span-4 flex flex-col gap-8">
         <List
           name="Technologies"
           :items="tech"
@@ -68,7 +68,7 @@ export default {
       contact: [
         'Email: me@ethansmith.us',
         'Phone: +1 (407) 274-8119',
-        'Discord: nathe#0865'
+        'Discord: ethezus#0865'
       ],
       work: [
         {
