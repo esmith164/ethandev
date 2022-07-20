@@ -6,9 +6,9 @@
       :checked="$colorMode.preference === 'dark'"
       @click="toggleDarkmode"
     >
-    <label for="neumorphism" class="bg-white dark:bg-dark-300">
+    <label for="neumorphism" class="bg-white dark:bg-dark-200-300">
       <div class="switch">
-        <div class="dot bg-dark-300 dark:bg-white" ></div>
+        <div class="dot bg-dark-200-300 dark:bg-white" ></div>
       </div>
       <span class="text-light text-sm inline-block ml-2 -mt-2">Dark Mode</span>
     </label>

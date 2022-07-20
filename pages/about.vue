@@ -68,7 +68,7 @@ export default {
       contact: [
         'Email: me@ethansmith.us',
         'Phone: +1 (407) 274-8119',
-        'Discord: ethezus#0865'
+   //     'Discord: ethezus#0865'
       ],
       work: [
         {
