@@ -11,6 +11,9 @@
     <NuxtLink to="/about">
       About
     </NuxtLink>
+    <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:8154a542-4465-4d61-bd99-bd09c24c052e">
+      Resume
+    </a>
   </div>
 </template>
 <style lang="scss" scoped>
