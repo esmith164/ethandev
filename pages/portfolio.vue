@@ -55,6 +55,15 @@ export default {
     return {
       projects: [
         {
+          image: "metasniper.png",
+          theme: "#fe2e7a",
+          title: "Metasniper",
+          url: "https://metasniper.app",
+          tech: "Electron, Vue.js, Tailwind CSS",
+          description:
+            "Designed user-interface for enterprise automated non-fungible-token (NFT) software used to purchase, sell, and keep track of tokens.",
+        },
+        {
           image: "alqen.png",
           theme: "#7b56f0",
           title: "Alqen.io",

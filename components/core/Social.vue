@@ -29,8 +29,8 @@ export default {
     return {
       socials: [
         { icon: "fab fa-discord", path: "/" },
-        { icon: "fab fa-linkedin-in", path: "/" },
-        { icon: "fab fa-github", path: "/" },
+        { icon: "fab fa-linkedin-in", path: "https://www.linkedin.com/in/ethan-s-117757121/" },
+        { icon: "fab fa-github", path: "https://github.com/esmith164" },
       ],
     };
   },

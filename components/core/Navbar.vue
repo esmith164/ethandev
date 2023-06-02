@@ -11,7 +11,7 @@
     <NuxtLink to="/about">
       About
     </NuxtLink>
-    <a href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:1d9a447d-9a63-4636-8f0b-4681afdea864">
+    <a href="/resume.pdf">
       Resume
     </a>
   </div>
