@@ -12,8 +12,8 @@
     <ul class="roles flex gap-4 mx-auto flex-col text-center text-light mb-12 lg:mb-0">
       <li class="font-bold">Roles</li>
       <li>Undergraduate Researcher at University of Florida</li>
-      <li>Software Engineer at <a href="https://alqen.io">Alqen.io</a></li>
-      <li>Frontend Developer at A Hidden Society & MetaSniper</li>
+      <li>Software Developer at <a 
+href="https://alqen.com">Alqen.com</a></li>
       <li>Self-Employed at Necton LLC</li>
     </ul>
     <button class="bg-primary hover:bg-dark-300 duration-300 block w-48 mx-auto rounded-full mb-12 lg:mb-0">
